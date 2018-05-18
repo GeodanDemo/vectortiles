@@ -1,0 +1,46 @@
+.tile {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+}
+
+.tile path {
+  fill: none;
+  stroke: gray;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.tile .major_road { stroke: #777; }
+.tile .major_road:hover { stroke: #ccc; stroke-width: 3px;}
+.tile .minor_road { stroke: white; }
+.tile .highway { stroke: #888; stroke-width: 1.5px; }
+.tile .highway:hover { stroke: #ccc; stroke-width: 3px; }
+.tile .rail { stroke: #aaa; }
+
+.tile .industrial { stroke: none; fill: #999; }
+.tile .grass { stroke: none; fill: #888; }
+.tile .residential { stroke: none; fill: lightgray;}
+.tile .park { stroke: none; fill: #eee;}
+.tile .forest { stroke: none; fill: #777;}
+.tile .farm { stroke: none; fill: #999;}
+.tile .scrub { stroke: none; fill: #999;}
+.tile .cemetery { stroke: none; fill: #aaa;}
+.tile .recreation_ground { stroke: none; fill: #ccc;}
+
+.tile .ocean,.tile .water,.tile .riverbank {
+  fill: url(#image);
+  stroke: none;
+}
+
+.tile .canal { stroke: none; fill: #eee ; }
+.tile .drain { stroke: none; fill: #eee ; }
+.tile .ditch { stroke: none; fill: #eee ; }
+.tile .moat { stroke: none; fill: #eee ; }
+.tile .reservoir { stroke: none; fill: #eee ; }
+.tile .river { stroke: none; fill: #eee ; }
+.tile .dock { stroke: none; fill: #eee ; }
+.tile .basin { stroke: none; fill: #eee ; }
+
+.tile .building { stroke: none; fill: #888 ; }
+.tile .building:hover { stroke: none; fill: Black ; }
